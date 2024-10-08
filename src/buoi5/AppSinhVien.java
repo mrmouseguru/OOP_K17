@@ -16,10 +16,10 @@ public class AppSinhVien {
 		//Sinh vien 3
 		SinhVien sv3 = new SinhVien();
 		System.out.print("Nhap ma so SV:");
-		sv3.maSV = input.nextInt();
+		sv3.setMaSV(input.nextInt());
 		input.nextLine();
 		System.out.print("Nhap ten SV:");
-		sv3.hoTen = input.nextLine();
+		sv3.setHoTen(input.nextLine());
 		
 		System.out.println(sv3);
 
