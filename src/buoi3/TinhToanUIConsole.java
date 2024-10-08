@@ -31,7 +31,11 @@ public class TinhToanUIConsole {
 		
 		//gửi thông điệp message cho đối tượng PhepCong
 		//khởi tạo đối tượng
-		PhepCong congRemote = new PhepCong(soThuNhat, soThuHai);
+		//Buoc 1 khai báo biến có tên là congRemote
+		//có kiểu là PhepCong
+		PhepCong congRemote = null;
+		  //Buoc 2 - khở tạo đối tượng
+		congRemote = new PhepCong(soThuNhat, soThuHai);
 		//message gửi thông điệp
 		tong = congRemote.cong();//
 		

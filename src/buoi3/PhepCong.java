@@ -13,7 +13,7 @@ public class PhepCong {
 		soThuHai = b;
 	}
 	
-	int cong () {
+	public int cong () {
 		return soThuNhat + soThuNhat;
 	}
 

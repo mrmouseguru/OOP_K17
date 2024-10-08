@@ -11,6 +11,7 @@ public class AppTinhToan {
 		//TinhToanUIConsole
 		TinhToanUIConsole uiConsole = null;
 		uiConsole = new TinhToanUIConsole();
+		//ý nghĩa???
 		uiConsole.input();
 
 	}
