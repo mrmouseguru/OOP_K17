@@ -43,5 +43,11 @@ public class SinhVien {
 		hoTen = _hoTen;
 	}
 	
+	public void setDiemLT(float _diemLT) {
+		if(_diemLT >=0 && _diemLT <=10) {
+			diemLT = _diemLT;
+		}
+	}
+	
 
 }
