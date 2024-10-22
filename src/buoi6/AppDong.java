@@ -12,12 +12,19 @@ public class AppDong {
 		bo1Remote.nhaiLai();
 		bo1Remote.keu();
 		
+		//ĐA HÌNH
+		DongVat dv1Remote = new Bo();
+		dv1Remote.keu();
+		//sử dụng biến tham chiếu có tên là dv1Remote kiểu class
+		//cha DongVat để điều khiển đối tượng bò trong Heap 
+		//thuộc kiểu của class con
+		
 //		DongVat dv1Remote = new Bo("Trung Quoc", false, 2, 500, 4);
 //		
 //		Bo bo2Remote = (Bo)dv1Remote;//ép kiểu
 //		bo2Remote.nhaiLai();
-		Cho choRemote = new Cho();
-		choRemote.keu();
+		dv1Remote = new Cho();
+		dv1Remote.keu();
 	}
 
 }
