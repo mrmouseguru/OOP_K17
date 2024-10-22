@@ -30,5 +30,11 @@ public class Bo extends DongVat{
 	    public void nhaiLai() {
 	    	System.out.println("Nhai lai....");
 	    }
+	    
+	    @Override
+	    public void keu() {
+	    	System.out.println("bo keu um bo....");
+	    	
+	    }
 
 }

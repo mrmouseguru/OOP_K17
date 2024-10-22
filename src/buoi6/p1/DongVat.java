@@ -29,11 +29,11 @@ public class DongVat {
     }
 
     public void ngu(){
-        System.out.println("Dong Vat Ngu");
+        System.out.println("Dong Vat Ngu...");
     }
 
     public void  keu(){
-        System.out.println("Dong Vat keu");
+        System.out.println("Dong Vat keu ....");
     }
 
 }
