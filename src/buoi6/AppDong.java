@@ -3,6 +3,7 @@ package buoi6;
 import buoi6.p1.Bo;
 import buoi6.p1.DongVat;
 import buoi6.p2.Cho;
+import buoi7.Cop;
 
 public class AppDong {
 
@@ -25,6 +26,12 @@ public class AppDong {
 //		bo2Remote.nhaiLai();
 		dv1Remote = new Cho();
 		dv1Remote.keu();
+		
+		dv1Remote = new Cop();
+		dv1Remote.keu();
+		
+		//
+		
 	}
 
 }

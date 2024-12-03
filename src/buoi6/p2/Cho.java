@@ -10,6 +10,7 @@ public class Cho extends DongVat {
 	 
 	 @Override
 	 public void keu() {
+		 //super.keu();//gọi lại hành vi kêu của cha
 		 System.out.println("Cho sua gau gau ...");
 	 }
 }

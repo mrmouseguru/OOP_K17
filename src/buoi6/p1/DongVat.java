@@ -1,6 +1,6 @@
 package buoi6.p1;
 
-public class DongVat {
+public abstract class DongVat {
 	  // instance variables - replace the example below with your own
     protected String giongLoai;  
     protected boolean gioiTinh;
@@ -24,6 +24,7 @@ public class DongVat {
         
     }
     
+    //phuong thức cụ thể - concrete method
     public void an(){
         System.out.println("Dong Vat An ...");
     }
@@ -32,8 +33,7 @@ public class DongVat {
         System.out.println("Dong Vat Ngu...");
     }
 
-    public void  keu(){
-        System.out.println("Dong Vat keu ....");
-    }
-
+    //phương thức trừu tượng 
+    public abstract void  keu();
+        
 }
